@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>snake</title>
+</head>
+<body>
+ <button id="start"><img src="./assets/round-play-button.png" alt="play"></button> 
+ <section class="player">
+     <div class="score">score: <span id="score"></span></div>
+ </section>
+ <section class="game">
+     <div class="game-container"></div>     
+ </section> 
+ 
+ <section class="game-controler">
+     <div class="top">
+         <button id = "up"><img src="./assets/up-arrow.png" alt="up"></button>
+     </div>
+     <div class="bottom">
+         <button id="left"><img src="./assets/left-arrow.png" alt="left"></button>
+         <button id="down"><img src="./assets/down-arrow.png" alt="down"></button>
+         <button id="right"> <img src="./assets/right-arrow.png" alt="right"></button>
+     </div>
+ </section>
+ <div class="game-over-bg">
+    <div class="message">
+        <img id="close" src="./assets/close (1).png" alt="">
+   <h1>game over!</h1>
+   <p>your score is: <span id = "final-score"></span></p>
+</div>
+</div>
+ 
+ <script src="./js/app.js"></script>
+</body>
+</html>
